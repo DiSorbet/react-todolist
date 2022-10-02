@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DiSorbet/react-todolist.git/static/css/main.90948a3b.css",
+    "main.js": "/DiSorbet/react-todolist.git/static/js/main.3fe71743.js",
+    "static/media/sky.jpg": "/DiSorbet/react-todolist.git/static/media/sky.ee2922854adec9e72508.jpg",
+    "index.html": "/DiSorbet/react-todolist.git/index.html",
+    "main.90948a3b.css.map": "/DiSorbet/react-todolist.git/static/css/main.90948a3b.css.map",
+    "main.3fe71743.js.map": "/DiSorbet/react-todolist.git/static/js/main.3fe71743.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90948a3b.css",
+    "static/js/main.3fe71743.js"
+  ]
+}
