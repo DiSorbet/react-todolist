@@ -1,0 +1,123 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+body {
+  background-image: url(/public/images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat-y;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+  width: 40%;
+  padding: 30px 50px;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.main_title {
+  font-size: 30px;
+  color: #ff4d00;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 15px 0px 10px 0px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: #ff4d00;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn:active {
+  opacity: 0.9;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-item:last-child {
+  margin-bottom: 20px;
+}
+
+.edit-btn {
+  color: #5cdb95;
+}
+
+.trash-btn {
+  color: #ff4d00;
+}
+
+.complete-btn:active {
+  color: #5cdb95;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.item_completed {
+  text-decoration: line-through 2px;
+}
+
+.clean-btn:active {
+  color: #ff4d00;
+}
+
+/* MODAL */
+.modal {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 500;
+
+    top: 20px;
+    left: 45%;
+}
+
+.success-modal {
+    background-color: #5cdb95;
+}
+
+.danger-modal {
+    background-color: #ff4d00;
+}
